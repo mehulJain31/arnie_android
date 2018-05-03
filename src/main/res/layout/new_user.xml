@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/weight_input"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:ems="10"
+        android:hint=" Weight(lbs.)"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.329" />
+
+    <EditText
+        android:id="@+id/ft_input"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+
+        android:ems="10"
+        android:hint="  ft."
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.629"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.236" />
+
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_width="179dp"
+        android:layout_height="26dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/shape"
+        android:ems="10"
+        android:hint="  Name*"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.151" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:text="Name"
+
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.148" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:text="Height"
+
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.245" />
+
+    <EditText
+        android:id="@+id/email_input"
+        android:layout_width="343dp"
+        android:layout_height="40dp"
+        android:background="@drawable/shape"
+        android:ems="10"
+        android:hint="  Email*"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.033" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:text="Wt. (lbs)"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.337" />
+
+    <EditText
+        android:id="@+id/inch_input"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:ems="10"
+        android:hint="  in."
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.235" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="64dp"
+        android:layout_height="21dp"
+        android:text="Age"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.402" />
+
+    <RadioGroup
+        android:id="@+id/age_group"
+        android:layout_width="191dp"
+        android:layout_height="101dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.927"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48">
+
+        <RadioButton
+            android:id="@+id/na"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="NA"
+            android:typeface="normal" />
+
+        <RadioButton
+            android:id="@+id/twenty-30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="20-30" />
+
+        <RadioButton
+            android:id="@+id/thirty-30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="30-40" />
+
+        <RadioButton
+            android:id="@+id/fourty-50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="40-50" />
+
+        <RadioButton
+            android:id="@+id/morethan50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=">50" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="378dp" />
+
+    <RadioGroup
+        android:layout_width="206dp"
+        android:layout_height="66dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.971"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.797">
+
+        <RadioButton
+            android:id="@+id/level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Begineer" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Mid Level" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Advanced" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/gender_select"
+        android:layout_width="211dp"
+        android:layout_height="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.652">
+
+        <RadioButton
+            android:id="@+id/gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/female_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Female" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="69dp"
+        android:layout_height="27dp"
+        android:text="Gender"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.632" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:text="Level"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.729" />
+
+    <Button
+        android:id="@+id/add_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD USER"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.965" />
+
+</android.support.constraint.ConstraintLayout>
